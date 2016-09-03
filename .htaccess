@@ -1,0 +1,15 @@
+# 1 ---- Error 404 ----
+
+# Ups xDD ErrorDocument 404 ../filenotfound.html
+
+# 2 ---- Filvisning annulering ----
+
+IndexIgnore *
+
+# 3 ---- Gør så sider virker uden ting bagved ----
+
+Options +MultiViews
+
+# 4 ---- PHP i HTML ----
+
+AddType application/x-httpd-php .htm .html
